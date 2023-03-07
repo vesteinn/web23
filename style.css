@@ -1,0 +1,51 @@
+@font-face {
+    font-family: futura;
+    src: url(SansSerifFLF.otf);
+}
+@font-face {
+    font-family: futura-bold;
+    src: url(SansSerifBldFLF.otf);
+}
+@font-face {
+    font-family: futura-lb;
+    src: url(SansSerifFLF-Demibold.otf);
+}
+h1{
+    font-family: futura-bold;
+    color: rgb(236, 198, 74);
+}
+body {
+    font-family: futura;
+    font-size: 18px;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#vesteinn{
+    background: url(vesteinn.jpg);
+    background-size: contain;
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    float: right;
+    right: 30px;
+}
+a{
+    font-family: futura-lb;
+    text-decoration: none;
+    color: dodgerblue;
+}
+a:visited{
+    color: dodgerblue;
+}
+p{
+    padding: 5px;
+    font-size: 20px;
+    line-height: 1.1em;
+}
+ul{
+    line-height: 1.2em;
+}
