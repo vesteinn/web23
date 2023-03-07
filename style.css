@@ -16,10 +16,15 @@ h1{
 }
 body {
     font-family: futura;
-    font-size: 18px;
+    font-size: 20px;
     max-width: 640px;
     margin: 0 auto;
     padding: 20px;
+}
+@media (min-width: 768px) {
+    body {
+        max-width: 100%;
+    }
 }
 #vesteinn{
     background: url(vesteinn.jpg);
@@ -43,7 +48,7 @@ a:visited{
 }
 p{
     padding: 5px;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.1em;
 }
 ul{
